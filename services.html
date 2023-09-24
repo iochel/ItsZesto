@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ItsZesto-services</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel ="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@500;600& display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <link rel="shortcut icon"   href="img/zesto.png">
+
+</head>
+<body>
+
+ <!--NavBar-->
+ <header>
+    <a href="#" class="logo"><i class="fa fa-cutlery"></i><span>ItsZesto</span> </a>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#" class="active">Food</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="main">
+        <a href="#" class="user"><i class="ri-user-fill"></i>Sign In</a>
+        <a href="#">Register</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+
+
+
+    <div class="popular__container">
+        <div class="services_text">
+            <h1><span>Trending</span>Food</h1>
+        </div>
+        <div class="popular__grid">
+        <div class="popular__card">
+            <img src="image/1.PNG" alt="popular food1" />
+            <div class="popular__content">
+            <div class="popular__card__header">
+                <h4>Chicken Salad</h4>
+                <h4>$13.95</h4>
+                <button type="button" onclick="showProductPreview('productPreview')">View Recipe</button>
+            </div>
+            </div>
+        </div>
+        
+    
+        <div class="popular__card">
+            <img src="image/2.PNG" alt="popular food2" />
+            <div class="popular__content">
+            <div class="popular__card__header">
+                <h4>Barbeque Chicken</h4>
+                <h4>$15.67</h4>
+                <button type="button" onclick="showProductPreview('productPreview2')">View Recipe</button>
+            </div>
+            </div>
+        </div>
+        <div class="popular__card">
+            <img src="image/3.PNG" alt="popular food3" />
+            <div class="popular__content">
+            <div class="popular__card__header">
+                <h4>Alaska Salmon</h4>
+                <h4>$56.00</h4>
+                <button type="button" onclick="showProductPreview('productPreview3')">View Recipe</button>
+            </div>
+            </div>
+        </div>
+        <div class="popular__card">
+            <img src="image/4.PNG" alt="popular food4" />
+            <div class="popular__content">
+            <div class="popular__card__header">
+                <h4>Israeli Orange Soup</h4>
+                <h4>$10.87</h4>
+                <button type="button" onclick="showProductPreview('productPreview4')">View Recipe</button>
+            </div>
+            <p></p>
+            </div>
+        </div>
+        <div class="popular__card">
+            <img src="image/5.PNG" alt="popular food4" />
+            <div class="popular__content">
+            <div class="popular__card__header">
+                <h4>Salad Arugula Iceberg Red Beet</h4>
+                <h4>$17.45</h4>
+                <button type="button" onclick="showProductPreview('productPreview5')">View Recipe</button>
+            </div>
+            <p></p>
+            </div>
+        </div>
+        <div class="popular__card">
+            <img src="image/6.PNG" alt="popular food5" />
+            <div class="popular__content">
+            <div class="popular__card__header">
+                <h4>Pizza Marsala We</h4>
+                <h4>$45.89</h4>
+                <button type="button" onclick="showProductPreview('productPreview6')">View Recipe</button>
+            </div>
+            <p></p>
+            </div>
+        </div>
+        </div>
+    </div>
+   
+    <div class="products-preview" id="productPreview">
+        <div class="preview">
+            <i class="fas fa-times" id="closePreview"></i>
+            <div class="content">
+                <img src="image/1.PNG" alt="">
+                <div class="text">
+                    <h3>Chicken Salad</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(250)</span>
+                    </div>
+                    <div class="servings">
+                        <i class="fas fa-clock"></i><span> 20</span> Minutes
+                        <i class="fas fa-book-open"></i><span> 10</span> Ingredients
+                        <i class="fas fa-user"></i><span> 2-3</span> Servings
+                    </div>
+                    <h2>Indulge in the perfect balance of flavors and textures with our delightful chicken salad. This refreshing dish combines tender, seasoned chicken breast pieces with a creamy, tangy dressing for a satisfying and wholesome meal.</h2>
+                    <h1>Recipe:
+                        2 boneless, skinless chicken breasts,
+                        Salt and pepper to taste,
+                        2 tablespoons mayonnaise,
+                        1 teaspoon Dijon mustard,
+                        1/2 teaspoon lemon juice,
+                        1/2 teaspoon garlic powder,
+                        1/2 cup chopped celery,
+                        1/4 cup chopped red onion,
+                        1/4 cup halved grapes,
+                        Lettuce leaves or mixed greens for serving
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products-preview" id="productPreview2">
+        <div class="preview">
+            <i class="fas fa-times" id="closePreview2"></i>
+            <div class="content">
+                <img src="image/2.PNG" alt="">
+                <div class="text">
+                    <h3>Barbeque Chicken</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(200)</span>
+                    </div>
+                    <div class="servings">
+                        <i class="fas fa-clock"></i><span> 30</span> Minutes
+                        <i class="fas fa-book-open"></i><span> 8</span> Ingredients
+                        <i class="fas fa-user"></i><span> 4-5</span> Servings
+                    </div>
+                    <h2>Enjoy the rich and smoky flavors of our delicious barbeque chicken. This savory dish is seasoned to perfection and grilled to a crispy finish, making it a perfect choice for your next barbecue gathering.</h2>
+                    <h1>Recipe:
+                        4 bone-in, skin-on chicken thighs,
+                        1/4 cup barbeque sauce,
+                        1/2 teaspoon garlic powder,
+                        1/2 teaspoon onion powder,
+                        Salt and pepper to taste,
+                        Vegetable oil for grilling,
+                        Fresh herbs for garnish (optional)
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products-preview" id="productPreview3">
+        <div class="preview">
+            <i class="fas fa-times" id="closePreview3"></i>
+            <div class="content">
+                <img src="image/3.PNG" alt="">
+                <div class="text">
+                    <h3>Alaska Salmon</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(150)</span>
+                    </div>
+                    <div class="servings">
+                        <i class="fas fa-clock"></i><span> 20</span> Minutes
+                        <i class="fas fa-book-open"></i><span> 5</span> Ingredients
+                        <i class="fas fa-user"></i><span> 2-3</span> Servings
+                    </div>
+                    <h2>Indulge in the exquisite taste of our Alaska Salmon. This premium seafood dish is sourced from the pristine waters of Alaska and is known for its succulent flavor and health benefits.</h2>
+                    <h1>Recipe:
+                        2 Alaska salmon fillets,
+                        1/4 cup lemon juice,
+                        2 tablespoons olive oil,
+                        1 teaspoon dill weed,
+                        Salt and pepper to taste,
+                        Lemon wedges for garnish (optional)
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products-preview" id="productPreview4">
+        <div class="preview">
+            <i class="fas fa-times" id="closePreview4"></i>
+            <div class="content">
+                <img src="image/4.PNG" alt="">
+                <div class="text">
+                    <h3>Israeli Orange Soup</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(100)</span>
+                    </div>
+                    <div class="servings">
+                        <i class="fas fa-clock"></i><span> 45</span> Minutes
+                        <i class="fas fa-book-open"></i><span> 7</span> Ingredients
+                        <i class="fas fa-user"></i><span> 2-3</span> Servings
+                    </div>
+                    <h2>Experience the refreshing taste of our Israeli Orange Soup. This unique and zesty soup is a delightful combination of fresh oranges and Mediterranean flavors.</h2>
+                    <h1>Recipe:
+                        4 oranges, peeled and segmented,
+                        2 cups vegetable broth,
+                        1/2 cup Greek yogurt,
+                        1 tablespoon honey,
+                        Salt and pepper to taste,
+                        Fresh mint leaves for garnish (optional)
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products-preview" id="productPreview5">
+        <div class="preview">
+            <i class="fas fa-times" id="closePreview5"></i>
+            <div class="content">
+                <img src="image/5.PNG" alt="">
+                <div class="text">
+                    <h3>Salad Arugula Iceberg</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(120)</span>
+                    </div>
+                    <div class="servings">
+                        <i class="fas fa-clock"></i><span> 15</span> Minutes
+                        <i class="fas fa-book-open"></i><span> 5</span> Ingredients
+                        <i class="fas fa-user"></i><span> 2-4</span> Servings
+                    </div>
+                    <h2>Elevate your salad experience with our Salad Arugula Iceberg Red Beet. This colorful and nutritious salad is a perfect blend of fresh greens and beets with a tangy dressing.</h2>
+                    <h1>Recipe:
+                        2 cups arugula,
+                        2 cups iceberg lettuce,
+                        1 cup sliced red beets,
+                        1/4 cup balsamic vinaigrette,
+                        Salt and pepper to taste,
+                        Crumbled feta cheese for garnish (optional)
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products-preview" id="productPreview6">
+        <div class="preview">
+            <i class="fas fa-times" id="closePreview6"></i>
+            <div class="content">
+                <img src="image/6.PNG" alt="">
+                <div class="text">
+                    <h3>Pizza Marsala We</h3> <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(150)</span>
+                    </div>
+                    <div class="servings">
+                        <i class="fas fa-clock"></i><span> 25</span> Minutes
+                        <i class="fas fa-book-open"></i><span> 8</span> Ingredients
+                        <i class="fas fa-user"></i><span> 2-3</span> Servings
+                    </div>
+                    <h2>Delight your taste buds with our Pizza Marsala We. This savory and cheesy pizza is topped with Marsala sauce and a variety of delicious ingredients for a mouthwatering experience.</h2>
+                    <h1>Recipe:
+                        1 pizza dough,
+                        1/2 cup Marsala sauce,
+                        1 cup shredded mozzarella cheese,
+                        1/4 cup sliced mushrooms,
+                        1/4 cup sliced black olives,
+                        Fresh basil leaves for garnish (optional)
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- scroll reveal javascript link -->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--js link-->
+<script type="text/javascript" src="js/javascript.js"></script>
+
+
+</body>
+</html>
